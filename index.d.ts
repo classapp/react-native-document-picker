@@ -21,15 +21,15 @@ declare module 'react-native-document-picker' {
       zip: 'application/zip';
     };
     utis: {
-      allFiles: 'public.content';
-      audio: 'public.audio';
-      csv: 'public.comma-separated-values-text';
-      images: 'public.image';
-      plainText: 'public.plain-text';
-      pdf: 'com.adobe.pdf';
-      video: 'public.movie';
-      zip: 'public.zip-archive';
-    };
+      allFiles: 'public.item',
+      audio: 'public.audio',
+      csv: 'public.comma-separated-values-text',
+      images: 'public.image',
+      plainText: 'public.plain-text',
+      pdf: 'com.adobe.pdf',
+      video: 'public.movie',
+      zip: 'public.zip-archive',
+    },
     extensions: {
       allFiles: '*';
       audio: '.3g2 .3gp .aac .adt .adts .aif .aifc .aiff .asf .au .m3u .m4a .m4b .mid .midi .mp2 .mp3 .mp4 .rmi .snd .wav .wax .wma';
